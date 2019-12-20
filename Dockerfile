@@ -27,4 +27,4 @@ USER noip
 
 WORKDIR /home/noip
 
-CMD ["noip_run.sh"]
+CMD ["/bin/bash", "/home/noip/noip_run.sh"]
